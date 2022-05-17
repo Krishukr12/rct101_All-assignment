@@ -1,9 +1,9 @@
 import "./App.css";
-import Counter from "./sprint-1/day-2/Assignment/Counter"
+import Navbar from "./sprint-1/day-1/navbar/Navbar";
 function App() {
   return (
     <div className="App">
-  <Counter intialvalue={0}/>
+   <Navbar/>
     </div>
   );
 }

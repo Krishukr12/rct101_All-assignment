@@ -6,11 +6,20 @@
   display: inline-block;
 }
 .navBar2{
-    margin-top: 10%;
     height: 50px;
     /* border: 1px solid red; */
     background-color: black;
     width: 95%;
-    margin:auto;
+    margin: auto;
    margin-top: 12px;
+   display: flex;
+   justify-content: space-around;
+ 
+}
+.navBar2>div{
+  display: flex;
+  gap:10px;
+}
+.navBar2>div>a{
+  text-decoration: none;
 }
