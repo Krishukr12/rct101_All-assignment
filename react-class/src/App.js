@@ -1,10 +1,9 @@
-
-import './App.css';
-import Counter from './sprint-1/day-2/We/You/Counter';
+import "./App.css";
+import Counter from "./sprint-1/day-2/Assignment/Counter"
 function App() {
   return (
     <div className="App">
-   <Counter/>
+  <Counter intialvalue={0}/>
     </div>
   );
 }
