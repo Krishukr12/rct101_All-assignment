@@ -1,8 +1,9 @@
 import "./App.css";
+import Counter from "./sprint-1/day-2/Assignment/Counter"
 function App() {
   return (
     <div className="App">
-     <h1>Krishan Kumar Safi</h1>
+     <Counter intialvalue={0}/>
     </div>
   );
 }
