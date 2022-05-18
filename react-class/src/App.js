@@ -1,9 +1,8 @@
 import "./App.css";
-import Navbar from "./sprint-1/day-1/navbar/Navbar";
 function App() {
   return (
     <div className="App">
-   <Navbar/>
+     <h1>Krishan Kumar Safi</h1>
     </div>
   );
 }
