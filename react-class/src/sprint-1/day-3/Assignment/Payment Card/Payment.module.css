@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.fifth{
+    display: flex;
+    justify-content: space-between;
+}
