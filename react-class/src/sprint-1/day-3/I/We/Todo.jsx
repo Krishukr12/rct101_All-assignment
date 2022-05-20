@@ -9,7 +9,7 @@ export const Todo = () => {
     }
   return (
     <div>
-        <h1>TO DO APPLICATION</h1>
+        <h1>TO DO APP</h1>
         <TodoInput />
         <TodoList/>
     </div>
