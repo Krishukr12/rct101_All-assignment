@@ -18,7 +18,7 @@ const Input = styled.input`
   width: 400px;
   border-radius: 10px;
 `;
-export const TodoInput = () => {
+export const TodoInput = ({addTodos}) => {
   const [value, setValue] = useState("");
   return (
     <div className={classes.main}>
@@ -26,6 +26,7 @@ export const TodoInput = () => {
         <Input
           type="text"
           placeholder="Write Something"
+          value={value}
           onChange={(e) => {
             setValue(e.target.value);
           }}
@@ -34,7 +35,8 @@ export const TodoInput = () => {
       <div>
         <Add
           onClick={() => {
-            console.log(value);
+            // console.log(value);
+            addTodos(value)
             setValue("");
           }}
         >
