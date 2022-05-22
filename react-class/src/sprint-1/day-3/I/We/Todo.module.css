@@ -5,8 +5,9 @@
     width: 400px;
 }
 .list{
-    height: auto;
+    /* height: auto; */
+    height: 800px;
     width: 400px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 10px
 }

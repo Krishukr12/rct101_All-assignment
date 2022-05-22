@@ -9,13 +9,12 @@ font-size:30px;
 text-align:left;
 border-radius:10px;
 padding-left:10px;
-
-`
+`;
 export const TodoList = ({todos}) => {
   return (
     <div className={classes.list}>
       {todos.map((todos)=>{
-        return <Div>{todos}</Div>
+        return <Div>{todos}  </Div>
       })}
     </div>
   )
