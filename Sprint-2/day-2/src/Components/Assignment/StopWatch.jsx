@@ -5,7 +5,7 @@ const Div=styled.div`
 color:rgb(181,181,181)l
 `
 const H1=styled.h1`
-font-size:90px;
+font-size:100px;
 `
 export const StopWatch = () => {
     const [watch,setWatch]=useState(0);
@@ -28,7 +28,7 @@ export const StopWatch = () => {
     <Div>
          <ButtonBar  start={start} pause={pause} reset={reset}/ >
 
-             <H1>{watch}</H1>
+             <H1>{0} : {watch} </H1>
        
     </Div>
   )
