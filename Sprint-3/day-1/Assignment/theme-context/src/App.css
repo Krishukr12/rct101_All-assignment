@@ -1,0 +1,12 @@
+
+.black{
+  background-color: black;
+}
+.light{
+  background-color: white;
+}
+.App{
+  height: 1000px;
+  text-align: center;
+  width: 100%;
+}
